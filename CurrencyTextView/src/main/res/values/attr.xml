@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurrencyTextView">
+        <attr name="amount" format="string"/>
+        <attr name="custom_symbol" format="string"/>
+        <attr name="currency_type" format="string"/>
+        <attr name="currency_code_gravity" format="string"/>
+    </declare-styleable>
+</resources>
