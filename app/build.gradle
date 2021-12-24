@@ -21,6 +21,12 @@ project.afterEvaluate {
 }
 
 android {
+    lintOptions {
+        abortOnError false
+    }
+}
+
+android {
     compileSdk 31
 
     defaultConfig {
